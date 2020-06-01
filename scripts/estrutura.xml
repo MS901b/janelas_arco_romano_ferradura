@@ -31,8 +31,12 @@
 	
 	<curiosidades>
 		<curiosidade>
-			<titulo>Arco Romano e Ferradura</titulo>
+			<titulo>Arco Romano</titulo>
 			<id>c1</id>
+		</curiosidade>
+		<curiosidade>
+			<titulo>Arco Ferradura</titulo>
+			<id>c2</id>
 		</curiosidade>
 		
 	</curiosidades>	
