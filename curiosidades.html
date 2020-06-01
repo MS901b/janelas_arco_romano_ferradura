@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml"  xml:lang = "pt-br"  lang = "pt-br">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" /> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<link rel="stylesheet" type="text/css" href="css/curiosidade_transicao.css" media="screen, projection" title="normal"/>
+		<link rel="alternate stylesheet" type="text/css" href="css/curiosidade_transicao2.css" media="screen, projection" title="grande"/>
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/notas.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/bloco.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/calculadora.css" media="screen, projection" />
+
+		
+		<script type="text/javascript" src="scripts/protoaculous.js"></script>
+		<script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
+		<script type="text/javascript" src="scripts/popup.js"></script>
+		<script type="text/javascript" src="scripts/notas.js"></script>
+		<script type="text/javascript" src="scripts/bloco.js"></script>
+		<script type="text/javascript" src="scripts/calculadora.js"></script>
+		<script type="text/javascript" src="scripts/curiosidades.js"></script>
+		
+		<script type="text/javascript" src="scripts/interface.js"></script>
+		<script type="text/javascript" src="scripts/referencias.js"></script>
+		<script type="text/javascript" src="scripts/curiosidades.js"></script>
+		
+		<script type="text/javascript" src="scripts_janelas/conteudo_introducao.js"></script>
+		<script type="text/javascript" src="scripts/salvaLocal.js"></script>		
+		<script type="text/javascript">
+			var Questoes = null;
+			var PosicaoAtual = {Atividade: 0, Parte: 0};
+			var nomeSoft = 'arcoRomanoFerradura';
+			document.observe('dom:safeLoaded', function(ev)
+			{
+				$('SalvaLocal').Salva(nomeSoft, 'curiosidade_c1', '3');
+			});
+		</script>
+
+		<title>Janelas em Arcos Romano e Ferradura</title>
+	</head>
+	<body>		
+		<div id="container">
+			<div id="cabecalho">
+				<div id="onde_estou">
+					<div class="curiosidade">&nbsp;</div>
+					<h1>Janelas em Arcos Romano e Ferradura</h1> <img src="img_layout/setinha-cabecalho.gif" alt=""/> <h2>Curiosidades</h2>
+				</div>
+				<div id="logo"></div>
+				<div id="links">
+					<a href="mapa.html">Mapa</a>
+					<a href="introducao.html">Introdução</a>
+					<a href="index.html">Início</a>
+				</div>
+				<br class="limpador" />
+			</div>
+			
+			<ul id="curiosidades">
+				<li id="c1" class="curiosidade" ><a href="javascript:navegaCuriosidade('c1');">1</a></li>
+				<li id="c2" class="curiosidade" ><a href="javascript:navegaCuriosidade('c2');">2</a></li>
+			</ul>
+			
+			<div id="principal">
+				<div id="conteudo">					
+					<div id="curiosidadec1" class="texto">
+						<h2> Arco Romano </h2>
+						<div class="apresentacao_applet">
+							<div class="a_esquerda applet">
+								<img width="100%" height="100%" src="imgs/nicolasBoullosa.jpg" />
+							</div>
+							<br class="limpador" />
+						</div>
+								
+						<p>A arte romana sofreu importantes influências no século II a.C., época em que Roma já dominava todo o Mediterrâneo e
+						avançava com passos firmes em direção ao norte da Europa e para a Ásia. Essas influências decorreram da convergência de
+						duas importantes culturas no interior da cultura romana, a etrusca e a grega. A primeira delas  se caracterizava por um
+						acentuado orientalismo, fruto do estreito contato comercial que os etruscos mantinham com outros povos da bacia do
+						Mediterrâneo. Quanto à influência grega, o processo de helenização dos romanos se intensificou a partir do século IV
+						a.C., com consequências em todos os âmbitos da cultura: na escultura, na arquitetura, na literatura e, inclusive, na
+						religião e na língua.</p>
+						<p>O arco romano foi largamente utilizado pelos romanos. No entanto, não foram eles os criadores de tal forma
+						arquitetônica. Na verdade, tudo indica que ela já era utilizada por povos ainda mais antigos. De todo modo, os romanos
+						foram os primeiros a utilizá-la de modo generalizado em construções de diversos tipos, inclusive em monumentos.</p>
+						
+						<div id="voltar" class="a_esquerda">
+							<div class="a_direita">
+								<div class="a_esquerda apontador">
+									<a id="voltar_curiosidade" href="javascript:history.go(-1);">Voltar</a>
+								</div>
+								<div class="a_esquerda seta_apontador"></div>
+							</div>
+						</div>
+						
+						<br class="limpador" />
+					</div>
+					<div id="curiosidadec2" class="texto">
+						<h2> Arco Ferradura </h2>
+						<div class="apresentacao_applet">
+							<div class="applet">
+								<img alt="" src="imgs/2559979973_1918ec3615.jpg" />
+								<br class="limpador" />
+								<p class="legenda">http://www.flickr.com/photos/nicmcphee/2559979973/</p>
+							</div>
+							<br class="limpador" />
+						</div>
+						
+						<p>Arcos ferradura são conhecidos desde a Síria pré-islâmica, onde o formato foi usado no século IV no batistério de Mar Ya'qub na Nisibin. No entanto, foi na Espanha e no norte da África que os arcos de formato ferradura adquiriram sua forma característica. Os visigodos também o usavam como uma de suas principais formas arquitetônicas.</p>
+						<p>Esse tipo de arco foi incorporado e desenvolvido pelo califado islâmico Ummayyads, que acentuou a curva da ferradura. Isto pode ser visto em grande escala na sua obra máxima, a Grande Mesquita de Córdoba.</p>
+						
+						<div id="voltar" class="a_esquerda">
+							<div class="a_direita">
+								<div class="a_esquerda apontador">
+									<a id="voltar_curiosidade" href="javascript:history.go(-1);">Voltar</a>
+								</div>
+								<div class="a_esquerda seta_apontador"></div>
+							</div>
+						</div>
+						
+						<br class="limpador" />
+
+					</div>
+					
+				</div>
+			</div>
+			<br class="limpador" />
+			<div id="rodape">
+				<a href="http://m3.ime.unicamp.br" target="_blank">Sobre o Matemática Multimídia</a>
+			</div>
+		</div>
+		
+		<div id="ferramentas">
+			<a href="javascript:;" onclick="return false;" id="link_notas"><span class="escondido">referencias</span></a>
+			<a href="javascript:;" onclick="return false;" id="link_bloco"><span class="escondido">bloco de notas</span></a>
+			<!--<a href="javascript:;" id="link_calculadora" onclick="javascript:calculadora();"><span class="escondido">calculadora</span></a>
+			<a href="javascript:setActiveStyleSheet('grande');" id="link_acessibilidade"><span class="escondido">acessibilidade</span></a>-->
+		</div>
+		<div id="calc" class="escondido"></div>
+
+	</body>
+</html>

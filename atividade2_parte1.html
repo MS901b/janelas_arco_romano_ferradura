@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml"  xml:lang = "pt-br"  lang = "pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen, projection" title="normal"/>
+		<link rel="alternate stylesheet"  type="text/css" href="css/estilo2.css" title="grande" />
+		
+		<link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/notas.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/bloco.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/calculadora.css" media="screen, projection" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" type="text/css" href="css/estilo_ie7.css" media="screen, projection" />
+		<![endif]-->
+		
+		<script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
+		<script type="text/javascript" src="scripts/protoaculous.js"></script>
+		<script type="text/javascript" src="scripts/popup.js"></script>
+		<script type="text/javascript" src="scripts/notas.js"></script>
+		<script type="text/javascript" src="scripts/bloco.js"></script>
+		<script type="text/javascript" src="scripts/calculadora.js"></script>
+		<script type="text/javascript" src="scripts/rolagem.js"></script>
+		
+		<script type="text/javascript" src="scripts/interface.js"></script>
+		<script type="text/javascript" src="scripts/referencias.js"></script>
+		<script type="text/javascript" src="scripts/curiosidades.js"></script>
+		<script type="text/javascript" src="scripts/inputs.js"></script>
+		
+		<script type="text/javascript" src="scripts_janelas/correcao_arcoFerradura_atv2.js"></script>
+		<script type="text/javascript" src="scripts_janelas/conteudo_arcoFerradura_atv2.js"></script>
+		<script type="text/javascript" src="scripts_janelas/geral.js"></script>
+		<script type="text/javascript" src="scripts_janelas/procnumerico.js"></script>
+		<script type="text/javascript" src="scripts/salvaLocal.js"></script>
+		
+		<script type="text/javascript">
+			
+			var nomeSoft = "arcoRomanoFerradura";
+			var PosicaoAtual = {Atividade:2, Parte: 0};
+			var ProximaParte = 'atividade2_parte2.html';
+			var Popups = $H({
+				link_continuar: {
+					conteudo: 'Você não pode continuar, enquanto não acertar todas as questões.',
+					layout: ['seta_baixo', 'direita'],
+					largura: 11
+				}
+			});
+		</script>
+		<title>Janelas em Arcos Romano e Ferradura</title>
+	</head>
+	<body onunload="">
+	
+	<!--
+	Nunca crie um "onload" aqui, use a Classe Event do Prototype: Event.observe(window, 'load', funcaoAqui);
+	Veja um exemplo no arquivo exemplo_correcao.js
+	-->
+	
+		<div id="container">
+			<div id="cabecalho">
+				<div id="onde_estou">
+					<div class="numero_atividade">2</div>
+					<h1>Janelas em Arco Ferradura</h1> <img src="img_layout/setinha-cabecalho.gif" alt=""/> <h2>Otimização</h2>
+				</div>
+				<div id="logo"></div>
+				<div id="links">
+					<a href="mapa.html">Mapa</a>
+					<a href="introducao.html">Introdução</a>
+					<a href="index.html">Início</a>
+				</div>
+				
+				<div class="limpador"></div>
+			</div>
+			
+			<ul id="partes">
+			</ul>
+			<div id="software">
+				<div id="conteudo">
+					<div class="salva_local">
+					</div>	
+					<div id="questoes">
+						<div id="texto_genérico">
+								<p>
+									O Arco Ferradura é muito comum na cultura árabe (saiba mais lendo a
+									<a id='arcoFerradura'>história do Arco Ferradura</a>) e, apesar da
+									complexidade aparente, as relações entre sua área e comprimento podem
+									ser deduzidas sem muita dificuldade.
+								</p>
+								<p>
+									No quadro ao lado, você poderá acompanhar passo a passo a construção
+									do formato a ser analisado. Reveja a construção quantas vezes julgar
+									necessário para entendê-la bem. Depois, responda a questão abaixo.
+								</p>
+						</div>
+						<!--
+						Para o Script se localizar, essa div "texto_genérico" é necessária. Caso não tenha texto aqui, deixe ela vazia.
+						Coloque aqui qualquer texto genérico de instruções e teoria.
+						-->
+						<!-- Aqui vão ser colocadas as questões, via JavaScript.-->				
+						<div id="parte1_q1"></div>
+						<a href="javascript:;" id="corrigir_tudo">Corrigir todas as questões</a>
+						<a id="link_continuar">
+							<span class="escondido">Continuar</span>
+						</a>
+						<div class="limpador"></div>
+					</div>
+				</div>
+			</div>
+			<br class="limpador" />
+			<div id="rodape">
+				<a href="http://m3.ime.unicamp.br" target="_blank">Sobre o Matemática Multimídia</a>
+			</div>
+		</div>
+		<div id="applet">
+				<div id="borda_applet" class="altura_applet_4 sem_borda sem_fundo">
+					<video id="video" src="applets/ArcoFerradura.mp4" width="520" height="380" controls="controls">
+						Seu navegador não suporta o elemento <code>video</code>.
+					</video>					
+					<div class="canto sup_esq"></div>
+					<div class="canto sup_dir"></div>
+					<div class="canto inf_esq"></div>
+					<div class="canto inf_dir"></div>
+					<div id="associacao"></div>
+			</div>
+			<div id="comandos">
+			</div>
+		</div>
+		<div id="associado"></div>
+		<div id="ferramentas">
+			<a href="javascript:;" onclick="return false;" id="link_notas"><span class="escondido">referencias</span></a>
+			<a href="javascript:;" onclick="return false;" id="link_bloco"><span class="escondido">bloco de notas</span></a>
+			<!--<a href="javascript:;" id="link_calculadora" onclick="javascript:calculadora();"><span class="escondido">calculadora</span></a>
+			<a href="javascript:;" id="link_acessibilidade"><span class="escondido">acessibilidade</span></a>-->
+		</div>	
+		<div id="calc" class="escondido"></div>		
+	</body>
+</html>

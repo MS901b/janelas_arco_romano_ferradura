@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recurso>
+    <titulo>Janelas em Arcos Romano e Ferradura</titulo>
+    <descricao>Este software ilustra um processo de otimização, utilizando polinômios do segundo grau. É considerada uma situação hipotética em que o objetivo é encontrar a janela de maior área (Atividade 1) e de maior luminosidade (Atividade 2), considerados um determinado formato e perímetro fixo. O formato aqui proposto para ser investigado é o da janela com base retangular e topo em forma de arco romano. A área da janela, assim como a luminosidade, pode ser estabelecida como uma função que é um polinômio do segundo grau com domínio restrito. O caminho de investigação proposto parte da percepção visual dos valores através de gráficos dinâmicos e induz ao “modelamento” do problema por funções.</descricao>
+    <estado>finalizado</estado>
+	<imagem>romanaferradura.jpg</imagem>
+    <tipo>software educacional, animação</tipo>
+	<objetivos>1. Despertar a percepção para a variação de valores de uma função de uma variável; 2. Modelar matematicamente uma situação por meio de uma função, determinando restrições de seu domínio; 3. Investigar o comportamento de uma função polinomial do segundo grau – seus valores máximos e mínimos.</objetivos>
+    <observacoes>É necessário plugin Flash 9.0 ou mais recente e máquina Java 1.6 ou mais recente.</observacoes>
+	<nivel>Ensino Médio</nivel>
+	<componente>Matemática</componente>
+	<temas>Numeros e Funções, Geometria e Medidas</temas>
+	<autores>Sueli I. R. Costa, Leonardo Barichello</autores>
+    <palavras_chaves>Unicamp, Projeto M³, software educacional, matemática, função, quadrática, geometria, perímetro, áreas de figuras planas</palavras_chaves>
+	<assunto>Funções: Função quadrática; Geometria: perímetro, área de figuras planas.</assunto>
+</recurso>

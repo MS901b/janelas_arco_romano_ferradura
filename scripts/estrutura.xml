@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<software nome="arcoRomanoFerradura">
+	<!-- 1: 1a Atividade -->
+	<item><id>a1</id>
+		<tipo>atividade</tipo>
+		<rotulo>1</rotulo>
+		<nome>Arco Romano</nome>
+		<descricao>Dentre as janelas com formato de arco romano e com perímetro fixo (contorno), que medidas proporcionam a maior área?</descricao>
+		<posicao>
+			<coluna>1</coluna>
+			<altura>1</altura>
+		</posicao>
+	</item>
+	
+	<!-- 2: 2a Atividade -->
+	<item>
+	<id>a2</id>
+		<tipo>atividade</tipo>
+		<rotulo>2</rotulo>
+		<nome>Arco Ferradura</nome>
+		<descricao>Dentre as janelas com formato de arco ferradura e com perímetro fixo, quais medidas proporcionam a janela de maior área?</descricao>
+		<posicao>
+			<coluna>2</coluna>
+			<altura>0</altura>
+		</posicao>
+		<ligacoes>
+			<com>a1</com>
+		</ligacoes>
+	</item>
+	
+	
+	<curiosidades>
+		<curiosidade>
+			<titulo>Arco Romano e Ferradura</titulo>
+			<id>c1</id>
+		</curiosidade>
+		
+	</curiosidades>	
+
+	
+
+
+
+
+</software>
+	
