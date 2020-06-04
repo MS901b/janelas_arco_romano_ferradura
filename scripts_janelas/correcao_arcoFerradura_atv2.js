@@ -38,6 +38,7 @@ Event.observe(document, 'dom:safeLoaded', function(){
 		{
 			var applet = document.ggbApplet;
 			applet.setVisible('A',true);
+			applet.setVisible('B',true);
 			applet.setVisible('a',true);
 			applet.setVisible('b',true);
 			applet.setVisible('f',true);
