@@ -138,7 +138,7 @@ var Questoes =
 					corrigir: corrige_q_4_c,
 					dependente: false,
 					caracteres_especiais: ['pi', 'raiz', 'quadrado'],
-					enunciado: 'Qual é a área do quadrilátero entre os arcos do topo da janela? <br /><em>(se necessário, use sen(60&#186;)=0,87 e sen(30&#186;)=0,5)</em>',
+					enunciado: 'Qual é a área do quadrilátero entre os arcos do topo da janela? <br /><em>(se necessário, use sen(60&#176;)=0,87 e sen(30&#176;)=0,5)</em>',
 					selecionada: selecionou_q_4_c,
 					msgErro: 'Note que a região é um losango, e pode ser dividida em triângulos com ângulos e lados conhecidos.',
 					msgAjuda: 'Como digitar fórmulas: <br /><br />Fração e divisão:  digitar a/b. <br /><br />Multiplicação: digitar a*b ou simplesmente ab. <br /><br />Potência: para escrever p elevado ao quadrado, digitar p^2 ou p*p.<br /><br />Você também pode usar parênteses e o símbolo “&#960;”.'
